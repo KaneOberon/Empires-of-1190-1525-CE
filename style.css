@@ -1,0 +1,128 @@
+/* === GLOBAL RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === BODY BACKGROUND === */
+body {
+  font-family: 'Garamond', serif;
+  background-image: url('images/units.jpg'); /* Placeholder path */
+  background-size: cover;
+  background-position: center;
+  color: #f0e6d2;
+  min-height: 100vh;
+}
+
+/* === CONTENT WRAPPER === */
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* === HEADER === */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #d4af37;
+  text-shadow: 2px 2px 4px #000;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ccc;
+  text-shadow: 1px 1px 2px #000;
+}
+
+/* === ROW FORMATIONS === */
+.top-row,
+.bottom-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+/* === EMPIRE CARD === */
+.empire-card {
+  width: 280px;
+  min-height: 160px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid #d4af37;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #f0e6d2;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.empire-card:hover {
+  transform: scale(1.05);
+  border-color: #fff;
+}
+
+.empire-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #d4af37;
+}
+
+.empire-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* === EMPIRE BACKGROUND CLASSES === */
+.teutonic-bg {
+  background-image: url('images/bg-teutonic.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #000;
+  color: #fff;
+}
+
+.mamluk-bg {
+  background-image: url('images/bg-mamluk.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #000;
+  color: #fff;
+}
+
+.aztec-bg {
+  background-image: url('images/bg-aztec.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #000;
+  color: #fff;
+}
+
+.delhi-bg {
+  background-image: url('images/bg-delhi.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #000;
+  color: #fff;
+}
+
+.hungary-bg {
+  background-image: url('images/bg-hungary.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #000;
+  color: #fff;
+}
