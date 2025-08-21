@@ -83,7 +83,7 @@ header p {
 
 /* === EMPIRE BACKGROUND CLASSES === */
 .teutonic-bg {
-  background-image: url('images/bg-teutonic.jpg');
+  background-image: url('images/bg_teutonic.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
@@ -126,6 +126,7 @@ header p {
   background-color: #000;
   color: #fff;
 }
+
 
 
 
