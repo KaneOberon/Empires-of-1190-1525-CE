@@ -6,14 +6,24 @@
   <title>Teutonic Order Empire Dashboard</title>
   <link rel="stylesheet" href="teutonic.css" />
 </head>
-<body>
+<body class="british-bg">
+  <header>
+    <h1> Teutonic Order</h1> 
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="mamluk.html">Mongol</a>
+      <a href="aztec.html">Roman</a>
+      <a href="delhi.html">Spanish</a>
+      <a href="hungary.html">Ottoman</a>
+    </nav>
+  </header>
 
   <section class="leaders">
-    <h2>Commanders of the Teutonic Order</h2>
+    <h2>Grand Masters of the Teutonic Order</h2>
     <div class="leader-grid">
 
       <div class="leader">
-        <img src="placeholder_ulrich_von_jungingen.jpg" alt="Ulrich von Jungingen" />
+        <img src="images/placeholder_ulrich_von_jungingen.jpg" alt="Ulrich von Jungingen" />
         <h3>Ulrich von Jungingen</h3>
         <p>Grand Master (1393–1410)</p>
         <p>Cause of Death: Killed in Battle</p>
@@ -39,7 +49,7 @@
       </div>
 
       <div class="leader">
-        <img src="placeholder_winrich_von_kniprode.jpg" alt="Winrich von Kniprode" />
+        <img src="images/placeholder_winrich_von_kniprode.jpg" alt="Winrich von Kniprode" />
         <h3>Winrich von Kniprode</h3>
         <p>Grand Master (1351–1382)</p>
         <p>Cause of Death: Natural Causes</p>
@@ -65,7 +75,7 @@
       </div>
 
       <div class="leader">
-        <img src="placeholder_siegfried_von_feuchtwangen.jpg" alt="Siegfried von Feuchtwangen" />
+        <img src="images/placeholder_siegfried_von_feuchtwangen.jpg" alt="Siegfried von Feuchtwangen" />
         <h3>Siegfried von Feuchtwangen</h3>
         <p>Grand Master (1303–1311)</p>
         <p>Cause of Death: Illness</p>
@@ -117,36 +127,42 @@
     </div>
   </section>
 
+  <!-- V. Empire Map -->
+  <section id="map">
+    <h2>Empire Map</h2>
+    <img src="images/teutonic_map_peak.jpg" alt="Teutonic Order at Peak">
+  </section>
+    
   <section class="castles">
     <h2>Fortified Holdings</h2>
     <div class="castle-grid">
 
       <div class="castle">
-        <img src="placeholder_marienburg.jpg" alt="Marienburg Castle" />
+        <img src="images/placeholder_marienburg.jpg" alt="Marienburg Castle" />
         <h3>Held: Marienburg Castle</h3>
         <p>Largest brick castle in the world, HQ of the Order</p>
       </div>
 
       <div class="castle">
-        <img src="placeholder_loetzen.jpg" alt="Loetzen Fortress" />
+        <img src="images/placeholder_loetzen.jpg" alt="Loetzen Fortress" />
         <h3>Held: Loetzen Fortress</h3>
         <p>Eastern stronghold guarding Masurian lakes</p>
       </div>
 
       <div class="castle">
-        <img src="placeholder_ragnit.jpg" alt="Ragnit Castle" />
+        <img src="images/placeholder_ragnit.jpg" alt="Ragnit Castle" />
         <h3>Held: Ragnit Castle</h3>
         <p>Strategic post near Lithuanian border</p>
       </div>
 
       <div class="castle">
-        <img src="placeholder_elbing.jpg" alt="Elbing Castle" />
+        <img src="images/placeholder_elbing.jpg" alt="Elbing Castle" />
         <h3>Contested: Elbing Castle</h3>
         <p>Trade hub, frequently attacked by Polish forces</p>
       </div>
 
       <div class="castle">
-        <img src="placeholder_balga.jpg" alt="Balga Fortress" />
+        <img src="images/placeholder_balga.jpg" alt="Balga Fortress" />
         <h3>Lost: Balga Fortress</h3>
         <p>First Teutonic stronghold in Prussia, lost in 15th century</p>
       </div>
@@ -161,11 +177,11 @@
       <h3>Infantry</h3>
       <div class="unit-grid">
         <div class="unit">
-          <img src="placeholder_halberdier.jpg" alt="Halberdier" />
+          <img src="images/placeholder_halberdier.jpg" alt="Halberdier" />
           <p><strong>Halberdier:</strong> Polearm infantry, effective against cavalry</p>
         </div>
         <div class="unit">
-          <img src="placeholder_swordsman.jpg" alt="Swordsman" />
+          <img src="images/placeholder_swordsman.jpg" alt="Swordsman" />
           <p><strong>Swordsman:</strong> Standard foot soldier with heavy armor</p>
         </div>
       </div>
@@ -173,11 +189,11 @@
       <h3>Cavalry</h3>
       <div class="unit-grid">
         <div class="unit">
-          <img src="placeholder_knight.jpg" alt="Knight" />
+          <img src="images/placeholder_knight.jpg" alt="Knight" />
           <p><strong>Teutonic Knight:</strong> Elite heavy cavalry, shock troops</p>
         </div>
         <div class="unit">
-          <img src="placeholder_sergeant.jpg" alt="Mounted Sergeant" />
+          <img src="images/placeholder_sergeant.jpg" alt="Mounted Sergeant" />
           <p><strong>Mounted Sergeant:</strong> Light cavalry for flanking</p>
         </div>
       </div>
@@ -185,11 +201,11 @@
             <h3>Archers</h3>
       <div class="unit-grid">
         <div class="unit">
-          <img src="placeholder_crossbowman.jpg" alt="Crossbowman" />
+          <img src="images/placeholder_crossbowman.jpg" alt="Crossbowman" />
           <p><strong>Crossbowman:</strong> Armor-piercing ranged unit</p>
         </div>
         <div class="unit">
-          <img src="placeholder_longbowman.jpg" alt="Longbowman" />
+          <img src="images/placeholder_longbowman.jpg" alt="Longbowman" />
           <p><strong>Longbowman:</strong> High-range archer, slower reload</p>
         </div>
       </div>
@@ -197,11 +213,11 @@
       <h3>Siege</h3>
       <div class="unit-grid">
         <div class="unit">
-          <img src="placeholder_trebuchet.jpg" alt="Trebuchet" />
+          <img src="images/placeholder_trebuchet.jpg" alt="Trebuchet" />
           <p><strong>Trebuchet:</strong> Long-range stone thrower for castle assaults</p>
         </div>
         <div class="unit">
-          <img src="placeholder_battering_ram.jpg" alt="Battering Ram" />
+          <img src="images/placeholder_battering_ram.jpg" alt="Battering Ram" />
           <p><strong>Battering Ram:</strong> Used to breach gates and walls</p>
         </div>
       </div>
@@ -209,11 +225,11 @@
       <h3>Naval</h3>
       <div class="unit-grid">
         <div class="unit">
-          <img src="placeholder_galley.jpg" alt="Teutonic Galley" />
+          <img src="images/placeholder_galley.jpg" alt="Teutonic Galley" />
           <p><strong>Teutonic Galley:</strong> Fast attack ship for Baltic patrols</p>
         </div>
         <div class="unit">
-          <img src="placeholder_cog.jpg" alt="Trade Cog" />
+          <img src="images/placeholder_cog.jpg" alt="Trade Cog" />
           <p><strong>Trade Cog:</strong> Merchant vessel, lightly armed</p>
         </div>
       </div>
@@ -223,3 +239,4 @@
 
 </body>
 </html>
+
